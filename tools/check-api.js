@@ -54,7 +54,8 @@ class TableOptions extends API {
     this.attributes = ['Attribute', 'Type', 'Detail', 'Default', 'Example']
     this.ignore = {
       totalRows: ['Example'],
-      totalNotFiltered: ['Example']
+      totalNotFiltered: ['Example'],
+      buttonsPrefix: ['Example']
     }
   }
 }

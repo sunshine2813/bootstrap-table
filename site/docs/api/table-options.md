@@ -579,6 +579,16 @@ The table options are defined in `jQuery.fn.bootstrapTable.defaults`.
 
 ## totalNotFiltered
 
+- **Attribute:** `data-total-not-filtered`
+
+- **Type:** `Number`
+
+- **Detail:**
+
+  This property is mainly passed in by pagination server, which is easy to use.
+
+- **Default:** `0`
+
 ## pageNumber
 
 - **Attribute:** `data-page-number`
@@ -1309,6 +1319,16 @@ The table options are defined in `jQuery.fn.bootstrapTable.defaults`.
 - **Example:** [Buttons Align](https://examples.bootstrap-table.com/#options/buttons-align.html)
 
 ## buttonsPrefix
+
+- **Attribute:** `data-buttons-prefix`
+
+- **Type:** `String`
+
+- **Detail:**
+
+  Defines prefix of table buttons.
+
+- **Default:** `'btn'`
 
 ## buttonsClass
 
