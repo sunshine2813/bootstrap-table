@@ -1046,6 +1046,18 @@ The table options are defined in `jQuery.fn.bootstrapTable.defaults`.
 
 ## filterOptions
 
+- **Attribute:** `data-filter-options`
+
+- **Type:** `Boolean`
+
+- **Detail:**
+
+  Define the default filter options of algorithm, `filterAlgorithm: 'and'` means all given filter must match, `filterAlgorithm: 'or'` means one of the given filter must match.
+
+- **Default:** `{ filterAlgorithm: 'and' }`
+
+- **Example:** [Filter Options](https://examples.bootstrap-table.com/#options/filter-options.html)
+
 ## idField
 
 - **Attribute:** `data-id-field`
@@ -1329,6 +1341,8 @@ The table options are defined in `jQuery.fn.bootstrapTable.defaults`.
   Defines prefix of table buttons.
 
 - **Default:** `'btn'`
+
+- **Example:** [Buttons Prefix](https://examples.bootstrap-table.com/#options/buttons-prefix.html)
 
 ## buttonsClass
 
